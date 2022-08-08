@@ -91,4 +91,7 @@
 
 // console.log(num1 === num2)
 
-// 7 Булевая логика
+// 7 Булевая логика (https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Expressions_and_Operators#%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B)
+
+
+// 8 Фукнкции
