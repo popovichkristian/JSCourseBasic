@@ -95,3 +95,25 @@
 
 
 // 8 Фукнкции
+// function calculateAge (year) {
+//     return 2022 - year
+// }
+// const myAge = calculateAge(1998)
+// console.log(myAge)
+
+// function logInfoAbout(name, year) {
+//     const age = calculateAge(year)
+
+//     if (age > 0) {
+//         console.log('Человек по имени ' + name + ' сейчас имеет возраст ' + age)
+//     } else {
+//         console.log('Вообще-то это уже будущее!')
+//     }
+
+// }
+
+// logInfoAbout('Kristian', 1998)
+// logInfoAbout('Dayana', 1996)
+// logInfoAbout('Dayana', 2023)
+
+// 9 Массивы
