@@ -117,3 +117,18 @@
 // logInfoAbout('Dayana', 2023)
 
 // 9 Массивы
+// const cars = ['Мазда', 'Мерседес', 'Фиат', 'Форд', 'Фод']
+// const cars = new Array('Мазда', 'Мерседес', 'Фиат', 'Форд')
+// console.log(cars.length)
+
+// console.log(cars[0])
+// console.log(cars[2])
+// console.log(cars[3])
+
+// cars[0] = 'Porche'
+// console.log(cars)
+// cars[cars.length] = 'Жигули'
+// console.log(cars)
+
+// 10 Циклы
+const cars = ['Мазда', 'Мерседес', 'Фиат', 'Форд', 'Фод']
