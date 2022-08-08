@@ -131,4 +131,15 @@
 // console.log(cars)
 
 // 10 Циклы
-const cars = ['Мазда', 'Мерседес', 'Фиат', 'Форд', 'Фод']
+// const cars = ['Мазда', 'Мерседес', 'Фиат', 'Жигули']
+
+// for (let i = 0; i < cars.length; i++) {
+//     const car = cars[i]
+//     console.log(car)
+// }
+
+// for (let car of cars) {
+//     console.log(car)
+// }
+
+// 11 Объекты
