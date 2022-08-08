@@ -1,9 +1,9 @@
-// //1. Переменные - Variables (Переменные - это сущности в которых хранятся значения)
-
+// 1. Переменные - Variables (Переменные - это сущности в которых хранятся значения)
+//
 // // var name = 'Kristian' // VAR - устаревший тип переменных. Сейчас лучше обходится только let, const.
 // // const lastName = 'Popovich' // тип данных - string / Если в последствии не планируется изменять значение переменной - то лучше использовать const.
 // const firstName = 'Kristian'
-// // let age = 26 // тип данных - number
+// let age = 26 // тип данных - number
 // const isProgrammer = true // тип данных - boolean
 // // lastName = 'Ion' //переменные которые находятся в CONST - в последствии невозможно переопределять (менять)...
 
@@ -13,8 +13,8 @@
 // // console.log(name)
 // // console.log(age)
 // // console.log(isProgrammer)
-
-// // 2. Мутирование
+//
+// 2. Мутирование
 // // console.log('Имя человека: ' + name + ', а возраст человека: ' + age)
 // // console.log(age.toString())
 // // alert('Имя человека: ' + name + ', а возраст человека: ' + age)
@@ -22,8 +22,8 @@
 
 // // const lastName = prompt('Введите фамилию:')
 // // alert(firstName + ' ' + lastName)
-
-// // 3 Опереторы
+//
+// 3 Опереторы
 // let currentYear = 2022
 // const birthYear = 1998
 // // const age = currentYear - birthYear
@@ -68,4 +68,27 @@
 // console.log(isFullAge)
 
 // 6 Условные опператоры
-const courseStatus = 'pending'
+// const courseStatus = 'fail' // ready, fail, pending
+// if (courseStatus === 'ready') {
+//     console.log('Курс уже готов и его можно проходить')
+// } else if (courseStatus === 'pending') {
+//     console.log('Курс пока находится в разработке')
+// } else {
+//     console.log('Курс не получился')
+// }
+
+// const isReady = true
+// if (isReady === true) {
+//     console.log ('Все готово')
+// } else {
+//     console.log ('Все не готово')
+// }
+
+// isReady ? console.log('Все готово!') : console.log('Все не готово!') // Тернарное выражение (встречается часто в простых условий)
+
+// const num1 = 42 // number
+// const num2 = '42' // string
+
+// console.log(num1 === num2)
+
+// 7 Булевая логика
