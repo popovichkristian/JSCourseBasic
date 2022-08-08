@@ -59,3 +59,13 @@
 // console.log(null)
 
 // 5. Приоритет операторов
+// const fullAge = 24
+// const birthYear = 1998
+// const currentYear = 2022
+
+// //< > <= >=
+// const isFullAge = (currentYear - birthYear) >= fullAge // 26 >= 27
+// console.log(isFullAge)
+
+// 6 Условные опператоры
+const courseStatus = 'pending'
