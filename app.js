@@ -1,47 +1,44 @@
-// Number
-// const num = 42 // integer (Целое число)
-// const float = 42.42 // float
-// const pow = 10e3 
+const name = 'Dayanutsa'
+const age = 26
+console.log(typeof name)
 
-// console.log (num)
-// console.log (float)
-// console.log (pow)
-// console.log (Number.NaN) // NaN Not a Number
-// console.log (2 / undefined)
-// console.log(isFinite(Infinity))
+function getAge() {
+    return age
+}
 
-// const stringInt = '40'
-// const stringFloat = '40.42'
-// console.log(Number.parseInt(stringInt) + 2)
-// console.log(parseInt(stringInt) + 2)
-// console.log(+stringInt + 2)
+// const output = 'Привет, меня зовут ' + name + ' и мой возраст: ' + age + ' лет'
+// const output = `Привет, меня зовут ${name} и мой возраст ${age} лет.`
+// const output = `Привет, меня зовут ${name} и мой возраст ${getAge()} лет.`
+// const output = `Привет, меня зовут ${name} и мой возраст ${age < 0 ? 'A': 'БМВ Дэ сасать ла Мерс'} лет.`
+// console.log(output)
+// console.log(name.length)
+// console.log(name.toUpperCase())
+// console.log(name.toLowerCase())
+// console.log(name.charAt(3))
+// console.log(name.indexOf('utsa'))
+// console.log(name.startsWith('utsa'))
+// console.log(name.repeat(3))
 
-// console.log(parseFloat(stringFloat) + 2)
-// console.log(+stringFloat + 2)
+// const string = '     Password     '
+// console.log(string)
+// console.log(string.trim())
+// console.log(string.trimLeft())
+// console.log(string.trimRight())
 
-// BigInt
-// console.log(9007199254740991000n - 900719925474099100n)
-// console.log(10n - 4) //error
-// console.log(parseInt(10n) - 4)
-// console.log(10n - BigInt(4))
+function logPerson (s, name, age) {
+    if (age < 0) {
+        age = 'Сопляк блядь'
+    }
+    return `${s[0]}${name}${s[1]}${age}${s[2]}`
+}
 
-// Math
-// console.log(Math.E)
-// console.log(Math.PI)
+const personName = 'Dayanuta'
+const personName2 = 'Kristian'
+const personAge = 25
+const personAge2 = -10
 
-// console.log(Math.sqrt(25))
-// console.log(Math.pow(2, 5))
-// console.log(Math.abs(-42))
-// console.log(Math.max(-42, 12 , 2685))
-// console.log(Math.min(-42, 12 , 2685))
-// console.log(Math.floor (4.9))
-// console.log(Math.ceil (4.3))
-// console.log(Math.round (4.8 ))
-// console.log(Math.trunc (4.8))
+const output = logPerson` Имя: ${personName}, Возраст: ${personAge}!`
+const output2 = logPerson` Имя: ${personName2}, Возраст: ${personAge2}!`
 
-// function getRandomBetween(min, max) {
-//     return Math.floor(Math.random() * (max - min + 1) + min) // Функция выбора рандомных чисел
-// }
-// console.log(getRandomBetween (1, 5))  //диапазон рандомных чисел
-
-// Строки
+console.log(output)
+console.log(output2)
