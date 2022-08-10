@@ -45,3 +45,28 @@ const lastName = "Lovelace";
 
 // Only change code below this line
 firstLetterOfLastName = lastName[0]; // Change this line
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "Our " + myNoun + " is " + myAdjective + ", and he " + myVerb + " so " + myAdverb; // Change this line
+// Only change code above this line
+
+const myArray = [50, 60, 70];
+const myData = myArray[0]
+
+// Modify Array Data With Indexes
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+
+const myArray = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+  ];
+  
+  const myData = myArray[2][1]; //Access Multi-Dimensional Arrays With Indexes  
