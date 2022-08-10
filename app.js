@@ -70,3 +70,21 @@ const myArray = [
   ];
   
   const myData = myArray[2][1]; //Access Multi-Dimensional Arrays With Indexes  
+
+  // Manipulate Arrays With push()
+const myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3])
+
+// Manipulate Arrays With pop() | .pop() removes the last element from an array and returns that element.
+const myArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop()
+
+// Manipulate Arrays With shift() | That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift()
+
+// Manipulate Arrays With unshift() | .unshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+
