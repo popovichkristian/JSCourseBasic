@@ -122,3 +122,29 @@ function processArg(num) {
   processArg(7)
 
   console.log(processArg)
+
+
+  function trueOrFalse(wasThatTrue) {
+    // Only change code below this line
+  if (wasThatTrue) {
+      return "Yes, that was true";
+    }
+    return "No, that was false";
+  
+  
+  trueOrFalse(true);
+  trueOrFalse(false);
+  
+    // Only change code above this line
+  
+  }
+
+  // Inequality Operator
+function testNotEqual(val) {
+    if (val != 99) { // Change this line
+      return "Not Equal";
+    }
+    return "Equal";
+  }
+  
+  testNotEqual(10);
